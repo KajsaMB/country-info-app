@@ -8,7 +8,7 @@ const PORT = 8080;
 app.use(cors());
 app.use(express.json());
 
-app.post("/srv-cljja7eg1b2c73aq8870?key=Wf3jQylHxrY", async (req, res, next) => {
+app.post("/country-info", async (req, res, next) => {
   const { country } = req.body;
 
   try {
