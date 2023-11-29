@@ -44,7 +44,7 @@ function App() {
 
     try {
       // sends api request to server
-      const response = await fetch("http://localhost:8080/country-info", {
+      const response = await fetch("https://country-info-kajsaberg-backend.onrender.com/country-info", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
