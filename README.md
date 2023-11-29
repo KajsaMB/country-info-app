@@ -10,7 +10,7 @@ This is a web application that allows users to input a country name and retrieve
 
    cd country-info-app/backend
 
-3. Install the required dependencies
+2. Install the required dependencies
 
     npm install
 
@@ -23,6 +23,8 @@ This is a web application that allows users to input a country name and retrieve
 2. Install the required dependencies
 
     npm install
+
+3. Change the API url in src/App.jsx to "http://localhost:8080/country-info".
 
 ## Starting the Application
 
