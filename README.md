@@ -18,7 +18,7 @@ This is a web application that allows users to input a country name and retrieve
 
 1. Navigate to the 'frontend' directory inside the 'country-info-app' directory.
 
-    cd ../frontend
+    cd country-info-app/frontend
 
 2. Install the required dependencies
 
