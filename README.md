@@ -24,7 +24,7 @@ This is a web application that allows users to input a country name and retrieve
 
     npm install
 
-3. Change the API url in src/App.jsx to "http://localhost:8080/country-info".
+3. Change the const API_URL in src/App.jsx to "http://localhost:8080/country-info" if running app locally.
 
 ## Starting the Application
 
