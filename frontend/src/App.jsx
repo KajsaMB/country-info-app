@@ -13,6 +13,8 @@ const LoadingStates = {
   Error: "error",
 };
 
+const API_URL = https://api.render.com/deploy/srv-cljja7eg1b2c73aq8870?key=Wf3jQylHxrY
+
 function App() {
   // initialises useStates
   const [country, setCountry] = useState("");
@@ -44,7 +46,7 @@ function App() {
 
     try {
       // sends api request to server
-      const response = await fetch("http://localhost:8080/country-info", {
+      const response = await fetch("https://api.render.com/deploy/srv-cljja7eg1b2c73aq8870?key=Wf3jQylHxrY", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
