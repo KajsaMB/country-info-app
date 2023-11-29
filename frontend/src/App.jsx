@@ -5,6 +5,9 @@ import CountryData from "./Components/CountryData.jsx";
 import Header from "./Components/Header.jsx";
 import { Puff } from "react-loader-spinner";
 
+// Change API_URL to "http://localhost:8080/country-info", if running it locally.
+const API_URL = "https://country-info-kajsaberg-backend.onrender.com/country-info";
+
 const LoadingStates = {
   // initialises constant to be used with loading useState
   Idle: "idle",
@@ -44,7 +47,7 @@ function App() {
 
     try {
       // sends api request to server
-      const response = await fetch("https://country-info-kajsaberg-backend.onrender.com/country-info", {
+      const response = await fetch({API_URL}, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
