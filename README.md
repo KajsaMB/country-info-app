@@ -6,19 +6,19 @@ This is a web application that allows users to input a country name and retrieve
 
 ### Backend (Node.js with Express)
 
-1. Navigate to the 'country-info-app' directory.
+1. Navigate to the 'backend' directory inside the 'country-info-app' directory.
 
-   cd country-info-app
+   cd country-info-app/backend
 
-2. Install the required dependencies
+3. Install the required dependencies
 
     npm install
 
 ### Frontend (React)
 
-1. Navigate to the 'client' directory inside the 'country-info-app' directory.
+1. Navigate to the 'frontend' directory inside the 'country-info-app' directory.
 
-    cd client
+    cd ../frontend
 
 2. Install the required dependencies
 
@@ -28,15 +28,15 @@ This is a web application that allows users to input a country name and retrieve
 
 ### Backend (Node.js with Express)
 
-1. In the 'country-info-app' directory, start the Node.js server 
+1. In the 'backend' directory inside the 'country-info-app' directory, start the Node.js server 
 
     node server.js
 
-The express server will be running on http://localhost:8080.
+The Node.js express server will be running on http://localhost:8080.
 
 ### Frontend (React)
 
-1. In the 'client' directory inside the 'country-info-app' directory, start the React app.
+1. In the 'frontend' directory inside the 'country-info-app' directory, start the React app.
 
     npm start
 
